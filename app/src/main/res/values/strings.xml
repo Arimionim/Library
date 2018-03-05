@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">List of books and films</string>
+    <string name="title_activity_books_list">Books</string>
+    <string name="title_activity_films_list">Films</string>
+
+    <string name="welcome_main_page">Welcome!</string>
+
+    <string name="books_list_title">Books</string>
+
+    <string name="films_list_title">Films</string>
+</resources>

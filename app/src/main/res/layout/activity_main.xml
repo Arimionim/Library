@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.listofbooksandfilms.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView android:id="@+id/welcome_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_main_page"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="56sp"
+        android:textColor="#212121"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView android:id="@+id/books_main_page_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/books_list_title"
+        android:fontFamily="sans-serif-light"
+        android:textSize="48sp"
+        android:textColor="@color/booksDark"
+        android:padding="8dp"/>
+
+    <TextView android:id="@+id/films_main_page_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/films_list_title"
+        android:fontFamily="sans-serif-light"
+        android:textSize="48sp"
+        android:textColor="@color/filmsDark"
+        android:padding="8dp"
+        android:layout_marginBottom="36dp"/>
+
+</LinearLayout>

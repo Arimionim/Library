@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#006064</color>
+
+    <color name="booksPrimary">#FFC107</color>
+    <color name="booksDark">#FF8F00</color>
+    <color name="booksAccent">#D32F2F</color>
+    <color name="booksMainText">#000</color>
+
+    <color name="filmsPrimary">#9C27B0</color>
+    <color name="filmsDark">#6A1B9A</color>
+    <color name="filmsAccent">#00BCD4</color>
+    <color name="filmsMainText">#000</color>
+
+    <color name="divider">#EEEEEE</color>
+</resources>
