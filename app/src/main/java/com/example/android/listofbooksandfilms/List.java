@@ -13,14 +13,16 @@ public class List {
     private int colorMainText;
     private int theme;
     private Context context;
+    private int title;
 
-    List(Context current, int primaryColor, int additionalColor, int mainTextColor, int themeToUse){
+    List(Context current, int primaryColor, int additionalColor, int mainTextColor, int themeToUse, int label){
         colorPrimary = primaryColor;
         colorAdditional = additionalColor;
         colorMainText = mainTextColor;
         theme = themeToUse;
         this.context = current;
         content = new ArrayList<>();
+        title = label;
     }
 
     void add(Element newElement){
@@ -64,5 +66,13 @@ public class List {
 
     int getTheme(){
         return theme;
+    }
+
+    int getTitle(){
+        return title;
+    }
+
+    void clear(){
+        content = new ArrayList<>();
     }
 }

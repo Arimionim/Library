@@ -3,12 +3,12 @@ package com.example.android.listofbooksandfilms;
 import android.util.Log;
 
 public class Element {
-    private String mainText, additionalText;
+    private String mainText, additionalText, descriptionText;
     private int rate;
     private boolean isGood;
     private final static int MAX_RATE = 5;
 
-    Element(String inputMainText, String inputAdditionalText, int inputRate, boolean inputIsGood){
+    Element(String inputMainText, String inputAdditionalText, String descriptionText, int inputRate, boolean inputIsGood){
         additionalText = inputAdditionalText;
         mainText = inputMainText;
         rate = inputRate;

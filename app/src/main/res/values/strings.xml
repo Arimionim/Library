@@ -8,4 +8,13 @@
     <string name="books_list_title">Books</string>
 
     <string name="films_list_title">Films</string>
+
+    <string name="new_book_title">Add new book</string>
+    <string name="new_main_text_book_hint">Title</string>
+    <string name="new_additional_text_book_hint">Author</string>
+    <string name="new_book_rate_title">Rate</string>
+    <string name="new_add_button">Add</string>
+    <string name="new_decline_button">Cancel</string>
+    <string name="new_book_good_title">Re-read</string>
+    <string name="new_book_description_hint">Descriprion..</string>
 </resources>

@@ -40,10 +40,13 @@
             tools:text="Достоевский" />
     </RelativeLayout>
 
-    <ImageView
+    <TextView
+        android:id="@+id/rate_view"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_panorama_fish_eye_black_18dp_1" />
+        android:textSize="16dp"
+        tools:ignore="SpUsage"
+        android:text=""
+        tools:text="\u25CB\u25CB\u25CB\u25CB\u25CB"/>
 </TableRow>
