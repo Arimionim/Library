@@ -8,11 +8,20 @@
     <color name="booksDark">#FF8F00</color>
     <color name="booksAccent">#D32F2F</color>
     <color name="booksMainText">#000</color>
+    <color name="booksRate">#FFC107</color>
+    <color name="booksCardBackground">#fff</color>
 
     <color name="filmsPrimary">#9C27B0</color>
     <color name="filmsDark">#6A1B9A</color>
     <color name="filmsAccent">#00BCD4</color>
     <color name="filmsMainText">#000</color>
+    <color name="filmsRate">#9C27B0</color>
+    <color name="filmsCardBackground">#fff</color>
 
     <color name="divider">#EEEEEE</color>
+    <color name="delete">#F44336</color>
+    <color name="descriptionBackground">#F5F5F5</color>
+    <color name="descriptionText">#424242</color>
+    <color name="background">#FAFAFA</color>
+    <color name="hint">#a8a8a8</color>
 </resources>

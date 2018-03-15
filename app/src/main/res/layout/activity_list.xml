@@ -28,18 +28,9 @@
         app:srcCompat="@drawable/ic_add_white_24dp"
         app:layout_behavior="com.example.android.listofbooksandfilms.FAB_Float_on_Scroll" />
 
-    <android.support.v4.widget.NestedScrollView
-        android:layout_width="match_parent"
+    <android.support.v7.widget.RecyclerView
         android:layout_height="match_parent"
-        android:layout_marginBottom="64dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-        <TableLayout android:id="@+id/table"
-            android:divider="@color/divider"
-            android:showDividers="middle"
-            android:layout_marginTop="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </TableLayout>
-    </android.support.v4.widget.NestedScrollView>
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/recycle_view" />
 </android.support.design.widget.CoordinatorLayout>

@@ -10,11 +10,30 @@
     <string name="films_list_title">Films</string>
 
     <string name="new_book_title">Add new book</string>
-    <string name="new_main_text_book_hint">Title</string>
-    <string name="new_additional_text_book_hint">Author</string>
+    <string name="new_book_main_text_hint">Title</string>
+    <string name="new_book_additional_text_hint">Author</string>
     <string name="new_book_rate_title">Rate</string>
-    <string name="new_add_button">Add</string>
-    <string name="new_decline_button">Cancel</string>
+    <string name="new_book_add_button">Add</string>
+    <string name="new_book_decline_button">Cancel</string>
     <string name="new_book_good_title">Re-read</string>
-    <string name="new_book_description_hint">Descriprion..</string>
+    <string name="new_book_description_hint">Description..</string>
+    <string name="new_book_edit_button">edit</string>
+    <string name="new_book_delete_button">delete</string>
+
+    <string name="new_films_title">Add new film</string>
+    <string name="new_films_main_text_hint">Title</string>
+    <string name="new_films_additional_text_hint">Genre</string>
+    <string name="new_films_rate_title">Rate</string>
+    <string name="new_films_add_button">Add</string>
+    <string name="new_films_decline_button">Cancel</string>
+    <string name="new_films_good_title">Re-watch</string>
+    <string name="new_films_description_hint">Description..</string>
+    <string name="new_films_edit_button">edit</string>
+    <string name="new_films_delete_button">delete</string>
+
+
+    <string name="ok">Ok</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+    <string name="back">back</string>
 </resources>

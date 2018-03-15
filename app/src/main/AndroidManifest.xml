@@ -19,7 +19,8 @@
         <activity
             android:name=".ListActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddNewElement"/>
+        <activity android:name=".AddNewElement"
+            android:screenOrientation="portrait"/>
 
     </application>
 

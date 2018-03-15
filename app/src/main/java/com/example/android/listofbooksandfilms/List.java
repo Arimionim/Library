@@ -1,7 +1,6 @@
 package com.example.android.listofbooksandfilms;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import java.util.ArrayList;
@@ -9,16 +8,20 @@ import java.util.ArrayList;
 public class List {
     private ArrayList<Element> content;
     private int colorPrimary;
-    private int colorAdditional;
+    private int colorDark;
     private int colorMainText;
+    private int colorRate;
+    private int colorCardBackground;
     private int theme;
     private Context context;
     private int title;
 
-    List(Context current, int primaryColor, int additionalColor, int mainTextColor, int themeToUse, int label){
+    List(Context current, int primaryColor, int additionalColor, int mainTextColor, int rateColor, int cardBackgroundColor, int themeToUse, int label){
         colorPrimary = primaryColor;
-        colorAdditional = additionalColor;
+        colorDark = additionalColor;
         colorMainText = mainTextColor;
+        colorRate = rateColor;
+        colorCardBackground = cardBackgroundColor;
         theme = themeToUse;
         this.context = current;
         content = new ArrayList<>();
@@ -34,23 +37,11 @@ public class List {
         }
     }
 
-    ArrayList<Element> getContent(){
+    ArrayList<Element> getList(){
         return content;
     }
 
-    int getPrimaryColor(){
-        return ContextCompat.getColor(context, colorPrimary);
-    }
-
-    int getAdditionalColor() {
-        return ContextCompat.getColor(context, colorAdditional);
-    }
-
-    int getTextColor(){
-        return ContextCompat.getColor(context, colorMainText);
-    }
-
-    Element get(int index){
+    public Element get(int index){
         if (index < content.size()){
             return content.get(index);
         }
@@ -58,10 +49,6 @@ public class List {
             Log.e("List", "try to get null element");
             return null;
         }
-    }
-
-    int size(){
-        return content.size();
     }
 
     int getTheme(){
@@ -74,5 +61,37 @@ public class List {
 
     void clear(){
         content = new ArrayList<>();
+    }
+
+    int getColorPrimary(){
+        return colorPrimary;
+    }
+
+    int getColorDark(){
+        return colorDark;
+    }
+
+    int getColorRate(){
+        return colorRate;
+    }
+
+    int getColorCardBackground(){
+        return colorCardBackground;
+    }
+
+    int getColorMainText(){
+        return colorMainText;
+    }
+
+    int getSize(){
+        return content.size();
+    }
+
+    void setContext(Context newContext){
+        context = newContext;
+    }
+
+    Context getContext(){
+        return context;
     }
 }
